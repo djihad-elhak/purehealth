@@ -91,9 +91,9 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'purehealthapp@gmail.com'
+EMAIL_HOST_USER = 'secret'
  
-EMAIL_HOST_PASSWORD = 'cany zgvm nrvl ktxt'  
+EMAIL_HOST_PASSWORD = 'secret'  
 
 
 # Database
@@ -102,9 +102,9 @@ EMAIL_HOST_PASSWORD = 'cany zgvm nrvl ktxt'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dis',
-        'USER': 'djihad',
-        'PASSWORD': 'xhoxh',
+        'NAME': 'secret',
+        'USER': 'secret',
+        'PASSWORD': 'secret',
         'HOST': 'localhost',
         'PORT': '5432',
     }
